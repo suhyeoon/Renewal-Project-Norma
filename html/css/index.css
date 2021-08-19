@@ -3,6 +3,46 @@
 
 .imgload{ width: 1px; height: 1px; opacity: 0; position: absolute; left: 0; top:0;}
 
+
+.main_sec .compete_list_wrap{width:1120px;}
+.main_sec  .compete_list.gridtab{width:1060px;}
+.main_sec.strategy.type_new  .compete_list.gridtab dt{
+transform:translateY(20px);-webkit-transform:translateY(20px);
+opacity: 0;
+}
+.main_sec.strategy.type_new  .compete_list.gridtab.go dt{opacity: 1;
+transform:translateY(0);-webkit-transform:translateY(0);
+transition:all .2s ease-in-out;
+-webkit-transition:all .2s ease-in-out;
+}
+.main_sec.strategy.type_new  .compete_list.gridtab dt.compete_list01{transition-delay:0;-webkit-transition-delay:0;}
+.main_sec.strategy.type_new  .compete_list.gridtab dt.compete_list02{transition-delay:.1s;-webkit-transition-delay:.1s;}
+.main_sec.strategy.type_new  .compete_list.gridtab dt.compete_list03{transition-delay:.2s;-webkit-transition-delay:.2s;}
+.main_sec.strategy.type_new  .compete_list.gridtab dt.compete_list04{transition-delay:.3s;-webkit-transition-delay:.3s;}
+.main_sec.strategy.type_new  .compete_list.gridtab dt.compete_list05{transition-delay:.4s;-webkit-transition-delay:.4s;}
+
+.main_sec  .compete_list.gridtab dt{padding:10px;}
+.main_sec  .compete_list.gridtab dt div{display:block;border:1px solid #cccccc;padding-top:20px;padding-bottom:38px;height:auto;text-align:center;padding-left:0;padding-right:0;}
+.main_sec  .compete_list.gridtab dt .img_box{position:static;width:100px;height:100px;display:inline-block;background-repeat:no-repeat;background-position:center center;margin-bottom:13px;}
+.main_sec  .compete_list.gridtab dt strong{font-size:18px;line-height:20px;color:#323232;margin-bottom:0;font-weight:400;}
+
+.main_sec  .compete_list.gridtab dt.compete_list01 .img_box{background-image:url(../../images/main/strategy01.png);}
+.main_sec  .compete_list.gridtab dt.compete_list02 .img_box{background-image:url(../../images/main/strategy02.png);}
+.main_sec  .compete_list.gridtab dt.compete_list03 .img_box{background-image:url(../../images/main/strategy03.png);}
+.main_sec  .compete_list.gridtab dt.compete_list04 .img_box{background-image:url(../../images/main/strategy04.png);}
+.main_sec  .compete_list.gridtab dt.compete_list05 .img_box{background-image:url(../../images/main/strategy05.png);}
+.main_sec .compete02_list li{width:136px;height:136px;}
+
+.main_sec .compete_global_list .icon_box{position:absolute;left:0;top:0;width:93px;height:93px;border-radius:100%;background-color:#f4f4f4;background-position:center center;background-repeat:no-repeat;}
+.main_sec .compete_global_list li {position:relative;min-height:93px;padding-left:120px;margin-bottom:31px;}
+.main_sec .compete_global_list li:last-child{margin-bottom:0;}
+.main_sec .compete_global_list li:nth-child(1) .icon_box{background-image:url(../../images/main/main_compete_global01.png);} 
+.main_sec .compete_global_list li:nth-child(2) .icon_box{background-image:url(../../images/main/main_compete_global02.png);} 
+.main_sec .compete_global_list li:nth-child(3) .icon_box{background-image:url(../../images/main/main_compete_global03.png);} 
+.main_sec .compete_global_list .txt_box{position:relative;}
+.main_sec .compete_global_list .txt_box  strong{display:block;font-size:22px;line-height:22px;margin-bottom:10px;}
+.main_sec .compete_global_list .txt_box p{font-size:16px;line-height:28px;}
+
 .maindeco1{ position: absolute; left: 0; top: -1100px;
  touch-action: none; pointer-events: none;}
 .maindeco2{ position: absolute; right: 0; bottom: -1700px; touch-action: none; pointer-events: none;}
